@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS Stylesheets -->
     <link
@@ -35,85 +39,76 @@
 
   <body>
     <!-- Nav Bar  -->
- 
-   <section class="navbar-light bg-light">
-    <div class="container-fluid">
-
-    <nav class="navbar navbar-expand-lg ">
-      <a class="navbar-brand" id="nav-title" href="#">Biblioteca Sonora</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto ">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
-              >Instrumentos</a
+    <div class="mainContainer">
+      <section class="navbar-light bg-light">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" id="nav-title" href="#"
+              >Biblioteca Sonora</a
             >
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Histórias</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
               aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              Criadores
-            </a>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Instrumentos</a
+                  >
+                </li>
 
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Emanuel Schuchter</a></li>
-              <li><a class="dropdown-item" href="#">Fulano de Tal</a></li>
-              <li><hr class="dropdown-divider" /></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre Nós</a>
+                </li>
 
-              <li>
-                <a class="dropdown-item" href="#">Colaboradores</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> SoundFonts </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Contato </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
     </div>
-  </section>
 
     <!-- Title  -->
-   
+
     <div class="container main-title">
       <h1>Acervo Digital de Instrumentos Mineiros</h1>
     </div>
- 
     <!-- Intro -->
     <div id="intro" class="container-fluid red-container">
-
-      <h1>Dialogando as novas tecnologias com saberes tradicionais.</h1>
+      <h1 class="second-tittle">
+        Dialogando as novas tecnologias com saberes tradicionais.
+      </h1>
       <h2>Preservando a cultura</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nam cupiditate doloribus, unde voluptas ducimus corporis officiis et quo totam beatae rerum facilis molestiae dolorem corrupti ratione veritatis aliquid voluptate?</p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nam
+        cupiditate doloribus, unde voluptas ducimus corporis officiis et quo
+        totam beatae rerum facilis molestiae dolorem corrupti ratione veritatis
+        aliquid voluptate?
+      </p>
     </div>
 
     <!-- Instrumentos -->
-    <div id="instruments-section" class="container-fluid">
+
+    <div id="instruments-section" class="container-fluid content1">
       <div class="container marketing">
         <div class="row">
           <div class="col-lg-4">
             <img
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
+              class="bd-placeholder-img rounded-circle instrumentos-mini-img"
               src="/images/caixa.jpg"
               alt=""
             />
@@ -126,17 +121,16 @@
               Praesent commodo cursus magna.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >Saiba Mais &raquo;</a
-              >
+              <a class="btn btn-secondary" href="#" role="button">Saiba Mais</a>
+              <button type="button" class="btn btn-outline-dark">
+                SoundFonts
+              </button>
             </p>
           </div>
 
           <div class="col-lg-4">
             <img
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
+              class="bd-placeholder-img rounded-circle instrumentos-mini-img"
               src="images/gunga.JPG"
               alt=""
             />
@@ -150,16 +144,17 @@
             </p>
             <p>
               <a class="btn btn-secondary" href="#" role="button"
-                >Saiba Mais &raquo;</a
-              >
+                >Saiba Mais
+              </a>
+              <button type="button" class="btn btn-outline-dark">
+                SoundFonts
+              </button>
             </p>
           </div>
 
           <div class="col-lg-4">
             <img
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
+              class="bd-placeholder-img rounded-circle instrumentos-mini-img"
               src="/images/patangome.jpg"
               alt=""
             />
@@ -172,14 +167,16 @@
               condimentum nibh, ut fermentum massa justo sit amet risus.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >Saiba Mais &raquo;</a
-              >
+              <a class="btn btn-secondary" href="#" role="button">Saiba Mais</a>
+              <button type="button" class="btn btn-outline-dark btn-soundFonts">
+                SoundFonts
+              </button>
             </p>
           </div>
         </div>
       </div>
     </div>
+
     <!-- About  -->
     <div id="about" class="container-fluid red-container">
       <div class="container marketing">

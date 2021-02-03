@@ -1,11 +1,15 @@
 body {
-  background-color: #dedede;
+  background-color: #c10000;
 }
 
 /* Navigation Bar */
 
 #nav-title::first-letter {
   color: #c10000;
+}
+
+#nav-tittle {
+  font-family: "Zilla Slab", serif;
 }
 
 .navbar {
@@ -40,12 +44,40 @@ body {
   display: inline-block;
 }
 
+#instruments-section {
+  background-color: #f0fff3;
+  padding: 150px;
+}
+
 /* About */
+
 .red-container {
-  background-color: #f05454;
+  background-color: #c10000;
   color: white;
   padding: 75px 12px;
 }
-.red-container h1 {
+.second-tittle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
   text-align: center;
+}
+
+/* Instrumentos */
+
+.instrumentos-mini-img {
+  width: 16rem;
+}
+
+.instrumentos-img {
+  width: 65rem;
+}
+
+.btn-soundFonts {
+  color: #c10000;
+  border-color: #c10000;
+}
+.btn-soundFonts:hover {
+  background-color: #c10000;
+  border-color: #c10000;
 }
